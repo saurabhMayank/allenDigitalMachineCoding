@@ -373,8 +373,8 @@ def main():
 
     # please comment this case to check the next case
 
-    time.sleep(50)
-    api_handler.claim_deal(user2_obj, deals1_obj)
+    # time.sleep(50)
+    # api_handler.claim_deal(user2_obj, deals1_obj)
 
 
     # case 4 -> user2 is trying to claim the deal1 within time
@@ -397,3 +397,6 @@ def main():
 
 if __name__ == "__main__":
   main()
+
+
+
